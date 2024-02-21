@@ -1,1 +1,3 @@
-This is the steps I did in determing sequencing quality.
+Data
+
+To determine the sequence # of raw reads in single end I did ```bash  zgrep "" UFVPY677_1.fq.gz | grep 'X' | wc -l ```

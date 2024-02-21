@@ -1,1 +1,1 @@
-# To determine the sequence # of raw reads in the single end I did ```bash zgrep "" UFVPY677_1.fq.gz | grep 'X' | wc -l ```
+# To determine the sequence # of raw reads in the single end I did ``` zgrep "" UFVPY677_1.fq.gz | grep 'X' | wc -l ```

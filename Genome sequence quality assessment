@@ -1,6 +1,6 @@
 # Raw reads single end
 To determine the sequence # of raw reads in the single end I did 
-```bash 
+```bash
 zgrep UFVPY677_1.fq.gz | grep 'X' | wc -l 
 ```
 The number determined was 12973340.

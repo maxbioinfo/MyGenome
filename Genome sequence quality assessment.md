@@ -8,7 +8,11 @@ The number determined was 12973340.
 
 ## Number of cleaned reads in single end used for assembly
 To find this I did  
-```bash grep @A00261:902:HGC52DSX7:2: UFVPY677_1_p.fq | wc ```
+
+```bash
+grep @A00261:902:HGC52DSX7:2: UFVPY677_1_p.fq | wc
+```
+
 The number determined was 11458918.
 
 

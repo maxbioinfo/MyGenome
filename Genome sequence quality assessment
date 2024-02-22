@@ -1,1 +1,13 @@
-# To determine the sequence # of raw reads in the single end I did ``` zgrep "" UFVPY677_1.fq.gz | grep 'X' | wc -l ```
+# Raw reads single end
+To determine the sequence # of raw reads in the single end I did { zgrep UFVPY677_1.fq.gz | grep 'X' | wc -l }
+
+## Number of cleaned reads in single end used for assembly
+To find this I did {  grep @A00261:902:HGC52DSX7:2: UFVPY677_1_p.fq | wc }
+
+### total bases in cleaned reads
+To find this I did {  cat *_p.fq | grep ^@A00261:902:HGC52DSX7:2: -A 1 | grep -v ^@A00261:902:HGC52DSX7:2: | grep -v '-' | grep [ATCG] | wc
+} 
+
+
+
+

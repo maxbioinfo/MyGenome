@@ -20,7 +20,7 @@ The number determined was 11458918.
 
 To find this I did 
 ```bash 
-cat *_p.fq | grep ^@A00261:902:HGC52DSX7:2: -A 1 | grep -v ^@A00261:902:HGC52DSX7:2: | grep -v '-' | grep [ATCG] | grep -o '' | grep -c ''
+cat *_p.fq | grep ^@A00261:902:HGC52DSX7:2: -A 1 | grep -v ^@A00261:902:HGC52DSX7:2: | grep -v '-' | grep [ATCG] | wc 
 ```
 
 The number determined was 3458414260. 

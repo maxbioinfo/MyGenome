@@ -31,3 +31,5 @@ The number determined was 3458414260.
 
 
 ## Pics of Reads after cleaning in fastqc
+https://uk.instructure.com/courses/2096578/assignments/11724602/submissions/7049178?download=109396337
+https://uk.instructure.com/courses/2096578/assignments/11724602/submissions/7049178?download=109396338

@@ -10,7 +10,7 @@ The number determined was 12973340.
 To find this I did  
 
 ```bash
-grep -c '@A00261:902:HGC52DSX7:2:' UFVPY677_1_p.fq | wc
+grep -c '@A00261:902:HGC52DSX7:2:' UFVPY677_1_p.fq
 ```
 
 The number determined was 11458918.

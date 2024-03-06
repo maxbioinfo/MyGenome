@@ -16,7 +16,8 @@ grep -c '@A00261:902:HGC52DSX7:2:' UFVPY677_1_p.fq
 The number determined was 11458918.
 
 
-### total bases in cleaned reads
+### Total bases in cleaned reads
+
 To find this I did 
 ```bash 
 cat *_p.fq | grep ^@A00261:902:HGC52DSX7:2: -A 1 | grep -v ^@A00261:902:HGC52DSX7:2: | grep -v '-' | grep [ATCG] | grep -o '' | grep -c ''
